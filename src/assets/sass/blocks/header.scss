@@ -1,0 +1,95 @@
+.header__top {
+    background-color: $dark_blue;
+    padding: 15px 0;
+}
+.header__top__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__top__items {
+    display: flex;
+    align-items: center;
+}
+.header__top__item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    &:hover i {
+        color: $blue;
+    }
+}
+.header__top__item:nth-child(3) {
+    margin: 0;
+}
+.header__top__item p {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.header__top__item a {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    transition: .2s;
+    &:hover {
+        color: $blue;
+    }
+}
+
+.header__top__item img {
+    margin-right: 7px;
+}
+.header__top__item i {
+    color: white;
+    margin-top: 3px;
+    margin-left: 7px;
+    transition: .2s;
+}
+
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__items {
+    display: flex;
+    align-items: center;
+}
+.nav__nums {
+    display: flex;
+    flex-direction: column;
+}
+.nav__nums a {
+    margin: 2px 0;
+    font-weight: 500;
+    color: black;
+    transition: .2s;
+    &:hover {
+        color: $blue;
+    }
+}
+
+nav {
+    padding: 10px 0;
+    border-bottom: 2px solid #F7FAFC;
+}
+.nav__logo h2 {
+    color: $blue;
+    font-weight: 500;
+}
+.nav__links {
+    margin-left: 80px;
+}
+.nav__links a {
+    font-size: 17px;
+    font-weight: 500;
+    color: $blue;
+    margin: 0 15px;
+    transition: .2s;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    &:hover {
+        border-color: $blue;
+    }
+}

@@ -1,0 +1,75 @@
+.under_header {
+    text-align: center;
+    padding: 50px 0;
+    @include gray_border;
+}
+.under_header h2 {
+    font-size: 56px;
+}
+.under_header span {
+    color: $blue;
+}
+.under_header p {
+    @include gray_par;
+    margin: 30px 0;
+    font-size: 19px;
+    color: $dark_blue;
+}
+.under_header__btns {
+    margin-top: 70px;
+}
+.under_header__btns .btn {
+    margin: 0 10px;
+}
+
+.services {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.service__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.service__item a {
+    color: $blue;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 15px 0;
+    transition: .2s;
+    &:hover {
+        color: #005eac;
+    }
+}
+.service__item p {
+    @include gray_par;
+    font-size: 15px;
+    color: #A2A9B2;
+}
+
+.benefits {
+    background-color: $blue;
+    padding: 50px 0;
+}
+.benefits__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.benefit__item {
+    text-align: center;
+}
+.benefit__item h2 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.benefit__item p {
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+}
