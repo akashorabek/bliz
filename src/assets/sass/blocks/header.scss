@@ -93,3 +93,7 @@ nav {
         border-color: $blue;
     }
 }
+.nav__links a.active {
+    color: $dark_blue;
+    border-color: $blue;
+}
