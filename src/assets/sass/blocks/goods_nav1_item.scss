@@ -1,0 +1,94 @@
+.section {
+  flex:3;
+}
+
+.aside {
+  flex:1;
+}
+
+.goods__info__map {
+  border-top: 2px #DFE2E5 solid;
+  padding-top: 20px;
+  margin-top:40px;
+}
+
+.goods__info__gray{
+  color: $gray_font;
+}
+
+.goods__info__table {
+  width: 60%;
+}
+
+.goods__info__add {
+  border-top: 2px #DFE2E5 solid;
+  padding-top: 20px;
+  margin-top:40px
+}
+
+.goods__info__add-text {
+  width: 400px;
+}
+
+.info__map__img {
+  width: 100%;
+}
+
+
+.info__map__path {
+  border-top: 2px #DFE2E5 solid;
+  padding-top: 20px;
+  margin-top:40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info__map__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info__map__text {
+  display: flex;
+  flex-direction: row;
+}
+
+.info__map__signs {
+  display: flex;
+  flex-direction: column;
+  margin:15px 0;
+  margin-left: 15px;
+}
+
+.info__map__signs img{
+  width: 25px;
+  height: 25px;
+}
+
+.signs__item2 {
+  margin:15px 0;
+}
+
+.info__map__descr {
+  margin:15px 0;
+  margin-left: 15px;
+}
+
+.info__map__curs {
+  margin:15px 0;
+}
+
+.info__map__city {
+  font-weight: 700;
+}
+
+.info__map__km p{
+  margin:15px 0;
+  text-align: right;
+}
+
+.info__map__time p{
+  margin:15px 0;
+  text-align: right;
+}

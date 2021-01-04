@@ -36,3 +36,12 @@
         border-color: $blue;
     }
 }
+
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.goods__title {
+    margin-bottom: 20px;
+}
