@@ -92,9 +92,10 @@ nav {
     padding: 10px 0;
     border-bottom: 2px solid #F7FAFC;
 }
-.nav__logo h2 {
+.nav__logo a {
     color: $blue;
     font-weight: 500;
+    font-size: 23px;
 }
 .nav__links {
     margin-left: 80px;
@@ -106,7 +107,7 @@ nav {
     margin: 0 15px;
     transition: .2s;
     border-bottom: 2px solid transparent;
-    padding-bottom: 20px;
+    padding-bottom: 21px;
     &:hover {
         border-color: $blue;
     }
@@ -114,4 +115,30 @@ nav {
 .nav__links a.active {
     color: $dark_blue;
     border-color: $blue;
+}
+.goods__nav {
+    background-color: #F7FAFC;
+    padding: 18px 0;
+    border-bottom: 2px solid #DFE2E6;
+    transition: .4s;
+    display: none;
+}
+.goods__nav__links a {
+    font-size: 17px;
+    color: $blue;
+    font-weight: 500;
+    transition: .2s;
+    margin-right: 30px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 16px;
+    &:hover {
+        border-color: $blue;
+    }
+    &.active {
+        color: $dark_blue;
+        border-color: $blue;
+    }
+}
+.goods__nav__opener{
+    
 }

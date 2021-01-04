@@ -26,5 +26,11 @@ $(document).ready(function() {
     $('.header__top__item').click(function(){
       $(this).find('.dropdown__items').fadeToggle(200);
     });
+
+    $('.goods__nav__opener').click(function(){
+      $('.goods__nav').toggle();
+    });
+
   });
+  
   
