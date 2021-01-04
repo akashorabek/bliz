@@ -22,5 +22,9 @@ $(document).ready(function() {
           .slideDown(200);
       }
     });
+
+    $('.header__top__item').click(function(){
+      $(this).find('.dropdown__items').fadeToggle(200);
+    });
   });
   
