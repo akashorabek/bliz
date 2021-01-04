@@ -31,6 +31,11 @@ $(document).ready(function() {
       $('.goods__nav').toggle();
     });
 
+    $('.show_num').click(function(){
+      $('.hidden_num').show();
+      $(this).hide();
+    });
+
   });
   
   
