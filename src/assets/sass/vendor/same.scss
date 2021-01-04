@@ -15,7 +15,7 @@
     transition: .2s;
     &:hover {
         color: $blue;
-        background-color: white;
+        background-color: transparent;
     }
 }
 
@@ -25,5 +25,14 @@
     &:hover {
         color: white;
         background-color: $blue;
+    }
+}
+.opacity_btn {
+    padding-bottom: 5px;
+    color: $blue;
+    transition: .2s;
+    border-bottom: 2px solid rgba($color:$blue, $alpha: .2);
+    &:hover {
+        border-color: $blue;
     }
 }
