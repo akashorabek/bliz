@@ -53,13 +53,15 @@
 .list__items {
   margin-right:30px;
   line-height: 1.8;
+  display: flex;
+  flex-direction: column;
 }
 
 .list__items a {
   white-space: nowrap;
   position: relative;
   color:#fff;
-  transition: color linear .3s;
+  transition: color linear .1s;
 }
 
 .list__items a:hover {
@@ -79,7 +81,10 @@
 .list__item {
   width:66%;
 }
-
+.footer__block-content {
+  display: flex;
+  flex-direction: column;
+}
 .footer__block-content a {
   color:#fff;
   transition: color linear .3s;
