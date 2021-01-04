@@ -122,6 +122,9 @@ nav {
     border-bottom: 2px solid #DFE2E6;
     transition: .4s;
     display: none;
+    &.active {
+        display: block;
+    }
 }
 .goods__nav__links a {
     font-size: 17px;
