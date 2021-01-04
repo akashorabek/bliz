@@ -119,7 +119,8 @@ nav {
 .goods__nav {
     background-color: #F7FAFC;
     padding: 18px 0;
-    border-bottom: 2px solid #DFE2E6;
+    border-top: 2px solid #DFE2E6;
+    border-bottom: 1px solid #DFE2E6;
     transition: .4s;
     display: none;
     &.active {
