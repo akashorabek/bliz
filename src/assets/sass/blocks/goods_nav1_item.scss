@@ -1,9 +1,9 @@
 .section {
-  flex:3;
+  flex: 3;
 }
 
 .aside {
-  flex:1;
+  flex: 1;
 }
 
 .goods__info__breadcrumbs {
@@ -31,14 +31,21 @@
 
 .goods__info__map {
   @include padding-margin-title;
+  border-top: 2px #DFE2E5 solid;
+  padding-top: 20px;
+  margin-top: 40px;
+
 }
 
-.goods__info__gray{
+.goods__info__gray {
   color: $gray_font;
 }
 
 .goods__info__add {
   @include padding-margin-title;
+  border-top: 2px #DFE2E5 solid;
+  padding-top: 20px;
+  margin-top: 40px
 }
 
 .goods__info__add-text {
@@ -51,6 +58,9 @@
 
 
 .info__map__path {
+  border-top: 2px #DFE2E5 solid;
+  padding-top: 20px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   @include padding-margin-title;
@@ -102,6 +112,26 @@
 
 .descr__item p{
   font-size: 17px;
+  margin: 15px 0;
+  margin-left: 15px;
+}
+
+.info__map__signs img {
+  width: 25px;
+  height: 25px;
+}
+
+.signs__item2 {
+  margin: 15px 0;
+}
+
+.info__map__descr {
+  margin: 15px 0;
+  margin-left: 15px;
+}
+
+.info__map__curs {
+  margin: 15px 0;
 }
 
 .info__map__city {
@@ -175,4 +205,114 @@
 .auction__table__item {
   display: flex;
   justify-content: space-between;
+.info__map__km p {
+  margin: 15px 0;
+  text-align: right;
+}
+
+.info__map__time p {
+  margin: 15px 0;
+  text-align: right;
+}
+
+.aside__contactCard {
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba($color: #000000, $alpha: .2);
+
+  p {
+    font-weight: 300;
+    color: $gray_font;
+    font-size: 15px;
+  }
+
+  .btn {
+    display: block;
+    text-align: center;
+  }
+}
+.contactCard__content {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  border-bottom: 2px solid #DFE2E6;
+  padding-bottom: 10px;
+}
+.contactCard__title {
+  margin-left: 10px;
+  h3 {
+    font-size: 17px;
+    font-weight: 500;
+    color: $blue;
+    margin-bottom: 5px;
+  }
+}
+
+.contactCard__num {
+  display: flex;
+  margin: 15px 0;
+.hidden_num {
+  display: none;
+}
+  p {
+    color: $dark_blue;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    transition: .2s;
+    color: $blue;
+    cursor: pointer;
+    margin-left: 10px;
+    border-bottom: 2px solid rgba($color:$blue, $alpha: .2);
+    font-size: 15px;
+    outline: none;
+    &:hover {
+      border-color: $blue;
+    }
+  }
+}
+.aside__functions {
+  margin: 20px 0;
+  a {
+    border: 1px solid $blue;  
+    border-radius: 50%;
+    transition: .2s;
+    &:hover {
+      box-shadow: 0px 0px 5px 0px rgba($color: #000000, $alpha: .3);
+    }
+  }
+  .izbrannoe {
+    border-radius: 30px;
+    padding: 7px 10px;
+    color: $blue;
+    font-weight: 500;
+    font-size: 15px;
+    i {
+      margin-right: 5px;
+    }
+  }
+  .download {
+    padding: 7px 10px;
+  }
+  .print {
+    padding: 7px 9px;
+  }
+  .someShit {
+    padding: 7px 8px;
+  }
+}
+.aside__functions__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.aside__changed_date {
+  p{
+    color: $gray_font;
+    font-size: 13px;
+    font-weight: 300;
+  }
 }
