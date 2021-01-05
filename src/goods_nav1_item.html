@@ -23,7 +23,7 @@ layout:default
   </nav>
   <div class="goods__nav">
       <div class="goods__nav__links container">
-          <a href="goods-nav-1.html">Грузы</a>
+          <a class="active" href="goods-nav-1.html">Грузы</a>
           <a href="#">Транспорт</a>
           <a href="#">Аукцион</a>
           <a href="#">Расчет растояний</a>
@@ -34,57 +34,109 @@ layout:default
 <div class="grid-container container">
   <section class="section">
     <div class="goods__info">
-      <p class="goods__info__gray">Главная / Грузоперевозки / Грузы</p>
-      <h2>Груз: Овощи и фрукты 22 тн / 86 м³</h2>
-      <p><span class="goods__info__gray">29 апр – 7 мая /</span> Алматы (РК) — Нур-Султан (РК) </p>
-      <div>
-        <table class="goods__info__table">
-              <tr>
-                    <td style="white-space: nowrap;" width="1" class="goods__info__gray">нужен транспорт</td>
-                    <td width="500" style="border-bottom: 1px dashed #A2A9B2;" ></td>
-                    <td style="white-space: nowrap;">ЖД Рефрижиратор</td>
-              </tr>
-              <tr>
-                <td class="goods__info__gray">параметры груза</td>
-                <td style="border-bottom: 1px dashed #A2A9B2;"></td>
-                <td>22 тн / 86 м³</td>
-               </tr>
-              <tr>
-                <td class="goods__info__gray">дата погрузки</td>
-                <td style="border-bottom: 1px dashed #A2A9B2;"></td>
-                <td>29 апр – 7 мая</td>
-              </tr>
-              <tr>
-                <td class="goods__info__gray">откуда</td>
-                <td style="border-bottom: 1px dashed #A2A9B2;"></td>
-                <td>Алматы, Казахстан</td>
-              </tr>
-              <tr>
-                <td class="goods__info__gray">куда</td>
-                <td style="border-bottom: 1px dashed #A2A9B2;"></td>
-                <td>Нур-Султан, Казахстан</td>
-              </tr>
-              <tr>
-                <td class="goods__info__gray">расстояние</td>
-                <td style="border-bottom: 1px dashed #A2A9B2;"></td>
-                <td>680.9 км</td>
-              </tr>
-              <tr>
-                <td class="goods__info__gray">время в пути</td>
-                <td style="border-bottom: 1px dashed #A2A9B2;"></td>
-                <td>22 ч 50 мин</td>
-              </tr>
-              <tr>
-                <td class="goods__info__gray">оплата</td>
-                <td style="border-bottom: 1px dashed #A2A9B2;"></td>
-                <td>Без НДС</td>
-              </tr>
-        </table>
+      <div class="goods__info__head">
+        <div class="goods__info__breadcrumbs">
+          <p class="goods__info__gray">Главная / Грузоперевозки / Грузы</p>
+        </div>  
+        <div class="goods__info__title">
+          <h2>Груз: Овощи и фрукты 22 тн / 86 м³</h2>
+          <p><span class="goods__info__gray">29 апр – 7 мая /</span> Алматы (РК) — Нур-Султан (РК) </p>
+        </div>
+      </div>
+      <div class="goods__info__table">
+          <div class="table__row">
+            <div class="table__column__1">
+              <p class="goods__info__gray">нужен транспорт</p>
+              <div class="table__dash__bord">
+              </div>
+            </div>
+            <div class="table__column__2">
+              <p>ЖД Рефрижиратор</p>
+            </div>
+          </div>
+
+          <div class="table__row">
+            <div class="table__column__1">
+              <p class="goods__info__gray">параметры груза</p>
+              <div class="table__dash__bord">
+              </div>
+            </div>
+            <div class="table__column__2">
+              <p>22 тн / 86 м³</p>
+            </div>
+          </div>
+
+          <div class="table__row">
+            <div class="table__column__1">
+              <p class="goods__info__gray">дата погрузки</p>
+              <div class="table__dash__bord">
+              </div>
+            </div>
+            <div class="table__column__2">
+              <p>29 апр – 7 мая</p>
+            </div>
+          </div>
+
+          <div class="table__row">
+            <div class="table__column__1">
+              <p class="goods__info__gray">откуда</p>
+              <div class="table__dash__bord">
+              </div>
+            </div>
+            <div class="table__column__2">
+              <p>Алматы, Казахстан</p>
+            </div>
+          </div>
+
+          <div class="table__row">
+            <div class="table__column__1">
+              <p class="goods__info__gray">куда</p>
+              <div class="table__dash__bord">
+              </div>
+            </div>
+            <div class="table__column__2">
+              <p>Нур-Султан, Казахстан</p>
+            </div>
+          </div>
+
+          <div class="table__row">
+            <div class="table__column__1">
+              <p class="goods__info__gray">расстояние</p>
+              <div class="table__dash__bord">
+              </div>
+            </div>
+            <div class="table__column__2">
+              <p>680.9 км</p>
+            </div>
+          </div>
+
+          <div class="table__row">
+            <div class="table__column__1">
+              <p class="goods__info__gray">время в пути</p>
+              <div class="table__dash__bord">
+              </div>
+            </div>
+            <div class="table__column__2">
+              <p>22 ч 50 мин</p>
+            </div>
+          </div>
+
+          <div class="table__row">
+            <div class="table__column__1">
+              <p class="goods__info__gray">оплата</p>
+              <div class="table__dash__bord">
+              </div>
+            </div>
+            <div class="table__column__2">
+              <p>Без НДС</p>
+            </div>
+          </div>
       </div>
       <div class="goods__info__add">
         <h4 class="goods__title">Дополнительная информация</h4>
         <p class="goods__info__add-text">Погрузка груза должна выполняться аккуратно. Коробки с фруктами и овощами закрепить надежно.Оплата на месте получения.</p>
       </div>
+
       <div class="goods__info__map">
         <h4 class="goods__title">Карта маршрута</h4>
         <img class="info__map__img" src="assets/img/goods__nav1__item/map.png" alt="map">
@@ -92,48 +144,78 @@ layout:default
           <div class="info__map__title">
             <h4 class="goods__title">Полный маршрут</h4>
           </div>
+          <div class="goods__city">
+            <img class="signs__item" src="assets/img/goods__nav1__item/a-sign.svg" alt="a-sign">
+            <p class="info__map__city">Алматы, Казахстан</p>
+            <img class="goods__info__rectangle" src="assets/img/goods__nav1__item/rectangle.png" alt="rectangle"> 
+          </div>  
           <div class="info__map__content">
             <div class="info__map__text">
               <div class="info__map__signs">
-                <img class="signs__item1"src="assets/img/goods__nav1__item/a-sign.png" alt="a-sign">
-                <img class="signs__item2" src="assets/img/goods__nav1__item/right-sign.png" alt="a-sign">
-                <img class="signs__item2" src="assets/img/goods__nav1__item/left-sign.png" alt="a-sign">
+                <img  src="assets/img/goods__nav1__item/right-sign.svg" alt="right-sign">
+                <img  src="assets/img/goods__nav1__item/left-sign.svg" alt="left-sign">
+                <img  src="assets/img/goods__nav1__item/right-sign.svg" alt="right-sign">
+                <img  src="assets/img/goods__nav1__item/right-sign.svg" alt="right-sign">
+                <img  src="assets/img/goods__nav1__item/left-sign.svg" alt="left-sign">
+                <img  src="assets/img/goods__nav1__item/straight-sign.svg" alt="straight-sign">
               </div>
+
               <div class="info__map__descr">         
-                  <p class="info__map__city">Алматы, Казахстан</p>
-                  <div class="info__map__curs">
-                    <p>Поверните направо в сторону мкр. Кок-тобе</p>
-                    <p>Двигайтесь мимо ИП Головацкий Ю.Ю (справа)</p>
-
-                    <p>Поверните налево на перекрестке на ул. Айриха</p>
-
-                    <p>Поверните направо на перекрестке пр. Улугбека на улица Саина</p>
-                    <p>Двигайтесь мимо «СТАТУС» (справа)</p>
-
-                    <p>Выезжайте на M-36</p>
-                    <p>Вы увидите АЗС (справа через 198 км)</p>
-
-                    <p>Поверните налево</p>
-                    <p>Участки этой дороги могут быть перекрыты в определенные дни или часы</p>
-
-                    <p>Продолжайте движение прямо по проспекту Республики</p>
-                  </div>
-                  <p class="info__map__city">Нур-Султан, Казахстан</p>
+                    <div class="descr__item">
+                      <p>Поверните направо в сторону мкр. Кок-тобе</p>
+                      <p class="descr__gray">Двигайтесь мимо ИП Головацкий Ю.Ю (справа)</p>
+                    </div>
+                   
+                    <div class="descr__item">
+                      <p>Поверните налево на перекрестке на ул. Айриха</p>
+                    </div>
+                    
+                    <div class="descr__item">
+                      <p>Поверните направо на перекрестке пр. Улугбека на улица Саина</p>
+                      <p class="descr__gray">Двигайтесь мимо «СТАТУС» (справа)</p>
+                    </div>
+                    
+                    <div class="descr__item">
+                      <p>Выезжайте на M-36</p>
+                      <p class="descr__gray">Вы увидите АЗС (справа через 198 км)</p>
+                    </div>
+                    
+                    
+                    <div class="descr__item">
+                      <p>Поверните налево</p>
+                      <p class="descr__gray">Участки этой дороги могут быть перекрыты в определенные дни или часы</p>
+                    </div>
+                    
+                    <div class="descr__item">
+                      <p>Продолжайте движение прямо по проспекту Республики</p>
+                    </div>                  
               </div>
             </div>
+            
             <div class="info__map__km">
-              <p>78м</p>
+              <p>78 м</p>
               <p>1.2 км</p>
               <p>800 м</p>
+              <p>7.0 км</p>
+              <p>300 м</p>
+              <p>1.0км</p>
             </div>
+
             <div class="info__map__time">
               <p>2 мин</p>
               <p>10 мин</p>
               <p>15 мин</p>
+              <p>2 ч 15 мин</p>
+              <p>20 мин</p>
+              <p>3ч 22мин</p>
             </div>
           </div>
+          <div class="goods__city">
+            <img class="signs__item" src="assets/img/goods__nav1__item/b-sign.svg" alt="b-sign">
+            <p class="info__map__city">Нур-Султан, Казахстан</p>
+          </div>
         </div>
-      </div>
+      </div> 
     </div>
   </section>
   <aside class="aside">

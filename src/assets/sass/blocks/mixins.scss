@@ -5,3 +5,9 @@
 @mixin gray_border {
     border-bottom: 1.7px solid #DFE2E6;
 } 
+
+@mixin padding-margin-title {
+    padding-top: 30px;
+    margin-top:40px;
+    border-top: 2px #DFE2E5 solid;
+}

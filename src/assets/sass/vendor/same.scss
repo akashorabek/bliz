@@ -3,6 +3,7 @@
     width: 90%;
     margin: 0 auto;
 }
+
 .btn {
     font-size: 15px;
     font-weight: bold;
@@ -40,8 +41,11 @@
 .grid-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 180px;
 }
 
 .goods__title {
     margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 500;
 }
