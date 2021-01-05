@@ -8,6 +8,9 @@
     justify-content: space-between;
     padding: 15px 0;
     border-bottom: 2px solid #DFE2E6;
+    &.border_none {
+        border: none;
+    }
 }
 .filter__item__title h4 {
     color: #3E455B;

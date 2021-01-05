@@ -14,24 +14,25 @@
     margin: 0 10px;
 }
 
-.products__title h4 {
-    color: #A2A9B2;
-    font-size: 15px;
-    font-weight: 300;
+.products__title {
+    h4 {
+        color: #A2A9B2;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    h1 {
+        color: $dark_blue;
+        font-size: 36px;
+        font-weight: 500;
+        margin: 10px 0;
+    }
+    h3 {
+        color: #A2A9B2;
+        font-size: 16px;
+        font-weight: 300;
+    }
 }
 
-.products__title h1 {
-    color: $dark_blue;
-    font-size: 36px;
-    font-weight: 500;
-    margin: 10px 0;
-}
-
-.products__title h3 {
-    color: #A2A9B2;
-    font-size: 16px;
-    font-weight: 300;
-}
 .products__items__wrapper {
     margin-top: 40px;
 }
@@ -110,6 +111,73 @@
         color: $dark_blue;
     }
 }
+.auction__product__container {
+    border-left: 3px solid $blue;
+    border-top: 2px solid #dfe2e6;
+    border-right: 2px solid #dfe2e6;
+    border-bottom: 2px solid #dfe2e6;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+    .product__item {
+        margin: 0;
+        padding: 25px 20px;
+    }
+}
+.auction__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #F7FAFC;
+    p {
+        color: #A2A9B2;
+        font-weight: 300;
+        font-size: 13px;
+        margin-bottom: 3px;
+    }
+    h2 {
+        font-size: 17px;
+        font-weight: 500;
+        color: $dark_blue;
+        &.gray_font {
+            color: $gray_font;
+        }
+    }
+    h3 {
+        color: #00B261;
+        font-weight: 500;
+        font-size: 19px;
+        &.gray_font {
+            color: $gray_font;
+        }
+    }
+    i {
+        margin-top: 5px;
+        margin-right: 7px;
+        font-size: 20px;
+        color: $blue;
+    }
+    img {
+        margin-top: 5px;
+        margin-right: 7px;
+    }
+    .btn {
+        padding: 12px 40px;
+    }
+}
+.auction__item__date {
+    display: flex;
+    align-items: center;
+}
+.auction__item__users {
+    display: flex;
+    align-items: center;
+}
+.auction__item__price {
+    display: flex;
+    align-items: center;
+}
+
 
 .product__items__list {
     margin: 0 20px;
@@ -134,7 +202,9 @@
             color: #20618C;
         }
     }
-
+    &.normal_margin {
+        margin: 0;
+    }
     & i {
         color: #20618C;
         font-size: 12px;    
@@ -144,6 +214,10 @@
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
+    &.normal_margin {
+        margin: 0;
+        margin-top: 40px;
+    }
 }
 .products__text__item {
     margin-bottom: 40px;

@@ -28,7 +28,7 @@ $(document).ready(function() {
     });
 
     $('.goods__nav__opener').click(function(){
-      $('.goods__nav').toggle();
+      $('.goods__nav').toggleClass('active');
     });
 
     $('.show_num').click(function(){
