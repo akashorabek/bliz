@@ -13,7 +13,7 @@
 
 .goods__info__breadcrumbs p {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .goods__info__title {
@@ -22,7 +22,8 @@
 
 .goods__info__title h2{
   font-weight: 500;
-  font-size: 32;
+  font-size: 32px;
+  color: $dark_blue;
 }
 
 .goods__info__title p{
@@ -40,6 +41,8 @@
 
 .goods__info__gray {
   color: $gray_font;
+  font-size: 19px;
+  font-weight: 300
 }
 
 .goods__info__add {
@@ -50,7 +53,10 @@
 }
 
 .goods__info__add-text {
-  width: 400px;
+  font-weight: 300;
+  font-size: 17px;
+  color: $dark_blue;
+  line-height: 2em;
 }
 
 .info__map__img {
@@ -77,6 +83,11 @@
 }
 
 .map__row__item2, .map__row__item3 {
+    p {
+      font-size: 17px;
+      color: #3E455B;
+      font-weight: 300;
+    }
       display: flex;
       flex:1;
       justify-content: flex-end;
@@ -90,6 +101,16 @@
 
 .row__item__text {
   margin-left:15px;
+  p {
+    color: #3E455B;
+    font-weight: 300;
+    font-size: 17px;
+    &.descr__gray {
+      color: $gray_font;
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
 }
 
 .info__map__path {
@@ -115,10 +136,7 @@
   top: -7px;
 }
 
-.descr__gray {
-  color: $gray_font;
-  font-size: 14px;
-}
+
 
 .signs__item2 {
   margin: 15px 0;
@@ -129,7 +147,7 @@
 }
 
 .info__map__city {
-  font-weight: 700;
+  font-weight: 600;
   margin-left: 10px;
   font-size: 17px;
 }
@@ -158,6 +176,11 @@
   justify-content: flex-start;
   padding-left: 10px;
   white-space: nowrap;
+  p {
+    font-size: 17px;
+    font-weight: 300;
+    color: $dark_blue;
+  }
 }
 
 .table__dash__bord {
@@ -200,12 +223,12 @@
     color: $gray_font;
     font-size: 15px;
   }
-}
   .btn {
     display: block;
     text-align: center;
   }
 }
+
 
 .contactCard__content {
   display: flex;
