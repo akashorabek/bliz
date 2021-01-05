@@ -57,16 +57,47 @@
   width: 100%;
 }
 
+.info__map__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.info__map__row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+} 
+
+.map__row__item {
+      display: flex;
+      justify-content: flex-start;
+      width: 390px;
+      margin-left: 30px;
+      align-items: flex-start;
+}
+
+.map__row__item2, .map__row__item3 {
+      display: flex;
+      flex:1;
+      justify-content: flex-end;
+}
+
+.item__text__paragraph {
+      line-height: 1.2em;
+      font-size: 17px;
+      font-weight: 400;
+}
+
+.row__item__text {
+  margin-left:15px;
+}
 
 .info__map__path {
-  border-top: 2px #DFE2E5 solid;
-  padding-top: 20px;
   margin-top: 40px;
   display: flex;
   flex-direction: column;
   @include padding-margin-title;
 }
-
 
 .goods__city {
   display: flex;
@@ -74,36 +105,14 @@
   padding-left: 27px;
 }
 
+.goods__city-nur {
+  padding-top:20px
+}
+
 .goods__info__rectangle {
   position: absolute;
   left: 0px;
-  top: 0;
-}
-
-.info__map__content {
-  display: flex;
-  justify-content: space-between;
-  margin:30px 0;
-}
-
-.info__map__text {
-  display: flex;
-  justify-content: flex-start;
-  flex:2;
-}
-
-
-.info__map__signs {
-  display: flex;
-  flex-direction: column;
-  margin-left: 30px;
-  margin-right: 20px;
-  justify-content: space-between;
-}
-
-.info__map__descr {
-  display: flex;
-  flex-direction: column;
+  top: -7px;
 }
 
 .descr__gray {
@@ -111,24 +120,8 @@
   font-size: 14px;
 }
 
-.descr__item p{
-  font-size: 17px;
-  margin: 15px 0;
-  margin-left: 15px;
-}
-
-.info__map__signs img {
-  width: 25px;
-  height: 25px;
-}
-
 .signs__item2 {
   margin: 15px 0;
-}
-
-.info__map__descr {
-  margin: 15px 0;
-  margin-left: 15px;
 }
 
 .info__map__curs {
@@ -141,27 +134,8 @@
   font-size: 17px;
 }
 
-.info__map__km {
-  flex:1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
 
-.info__map__km p{
-  font-size: 17px;
-}
 
-.info__map__time {
-  flex:1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.info__map__time p{
-  font-size: 17px;
-}
 
 
 .table__row {
@@ -226,12 +200,13 @@
     color: $gray_font;
     font-size: 15px;
   }
-
+}
   .btn {
     display: block;
     text-align: center;
   }
 }
+
 .contactCard__content {
   display: flex;
   align-items: center;
@@ -239,6 +214,7 @@
   border-bottom: 2px solid #DFE2E6;
   padding-bottom: 10px;
 }
+
 .contactCard__title {
   margin-left: 10px;
   h3 {
