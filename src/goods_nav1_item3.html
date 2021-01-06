@@ -139,47 +139,73 @@ layout:default
       <div class="goods__info__auction">
         <h4 class="goods__title">Участники аукциона</h4>
         <div class="info__auction__table">
-          <div class="auction__table__row">
-            <div class="auction__table__item">
-              <div>
+
+          <div class="auction__table">
+            <div class="auction__table__row">
+              <div class="auction__table__column1">
                 <img src="assets/img/goods__nav1__item/logistic-logo.svg" alt="logistic__logo">
-                <p>ТОО «Logistics Farm»</p>
-                <p>Рейтинг: 5.0</p>
+                <div class="column__item">
+                  <p class="column__item1">ТОО «Logistics Farm»</p>
+                  <p class="column__item2">Рейтинг: 5.0</p>
+                </div>
               </div>
-              <div>
-                <p>5 мая 12:30</p>
+              <div class="auction__table__column2">
+                <p class="column__item1">5 мая 12:30</p>
               </div>
-              <div>
-                <p>165 000 ₸</p>
-                <p>лучшая ставка</p>
-              </div>
-            </div>
-            <div class="auction__table__item">
-              <div>
-                <img src="assets/img/goods__nav1__item/private-client.svg" alt="private-client">
-                <p>Ахмедов Л.С.</p>
-                <p>частное лицо</p>
-              </div>
-              <div>
-                <p>4 мая 12:30</p>
-              </div>
-              <div>
-                <p>200 000 ₸</p>
-                <p>лучшая ставка</p>
+              <div class="auction__table__column3 separator">
+                <img src="assets/img/goods__nav1__item/separator.png" alt="separator">
+                <div class="separator__item">
+                  <p class="column__item__price">165 000 ₸</p>
+                  <p class="column__item__bet">лучшая ставка</p>
+                </div>
               </div>
             </div>
-            <div class="auction__table__item">
-              <div>
-                <img src="assets/img/goods__nav1__item/private-client.svg" alt="private-client">
-                <p>ТОО «UPS Logistics»</p>
-                <p>Рейтинг: 5.0</p>
+
+            <div class="auction__table__row">
+              <div class="auction__table__column1">
+                  <img src="assets/img/goods__nav1__item/private-client.svg" alt="private-client">
+                  <div class="column__item">
+                    <p class="column__item1">Ахмедов Л.С.</p>
+                    <p class="column__item2">частное лицо</p>
+                  </div>   
               </div>
-              <div>
-                <p>5 мая 12:30</p>
+              <div class="auction__table__column2">
+                <p class="column2__item">4 мая 12:30</p>
               </div>
-              <div>
-                <p>165 000</p>
-                <p>лучшая ставка</p>
+              <div class="auction__table__column3">
+                <p class="column__item__price">180 000 ₸</p>
+              </div>
+            </div>
+
+
+            <div class="auction__table__row">
+              <div class="auction__table__column1">
+                  <img src="assets/img/goods__nav1__item/private-client.svg" alt="private-client">
+                  <div class="column__item">
+                    <p class="column__item1">ТОО «UPS Logistics»</p>
+                    <p class="column__item2">Рейтинг: 5.0</p>
+                  </div>   
+              </div>
+              <div class="auction__table__column2">
+                <p class="column2__item">4 мая 12:30</p>
+              </div>
+              <div class="auction__table__column3">
+                <p class="column__item__price">200 000 ₸</p>
+              </div>
+            </div>
+
+            <div class="auction__table__row">
+              <div class="auction__table__column1">
+                  <div class="column__item">
+                    <p class="column__item1">Начальная ставка</p>
+                    <p class="column__item2">выставлено организатором</p>
+                  </div>   
+              </div>
+              <div class="auction__table__column2">
+                <p class="column2__item">4 мая 17:56</p>
+              </div>
+              <div class="auction__table__column3">
+                <p class="column__item__price">265 500 ₸</p>
               </div>
             </div>
           </div>
@@ -214,7 +240,7 @@ layout:default
         <p>Ставка: <br> (макс/текущ)</p>
         <div class="contactCard__auction__info">
           <img src="assets/img/widgets/tenge.png" alt="">
-          <h3>165 000 ₸</h3>
+          <p class="column__item__price">165 000 ₸</h3>
         </div>
       </div>
       <a class="btn" href="#">Учавствовать в аукционе</a>
