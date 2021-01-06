@@ -46,7 +46,10 @@
 .goods__info__gray {
   color: $gray_font;
   font-size: 19px;
-  font-weight: 300
+  font-weight: 300;
+  &.small {
+    font-size: 13px
+  }
 }
 
 .goods__info__add {
@@ -184,6 +187,9 @@
   justify-content: flex-start;
   padding-left: 10px;
   white-space: nowrap;
+  &.small p {
+    font-size: 15px;
+  }
   p {
     font-size: 17px;
     font-weight: 300;

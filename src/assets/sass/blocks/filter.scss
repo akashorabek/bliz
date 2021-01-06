@@ -11,6 +11,9 @@
     &.border_none {
         border: none;
     }
+    &.flex_end {
+        align-items: flex-end;
+    }
 }
 .filter__item__title h4 {
     color: #3E455B;
@@ -64,8 +67,7 @@
         transition: .2s;
         color: $blue;
         cursor: pointer;
-        margin-left: 50px;
-        margin-right: 20px;
+        margin: 0 20px;
         border-bottom: 2px solid rgba($color:$blue, $alpha: .2);
         &:hover {
             border-color: $blue;
@@ -73,10 +75,20 @@
     }
     & select {
         padding: 8px;
-        border-radius: 5px;
+        border-radius: 3px;
         outline: none;
         color: $blue;
         border: 1px solid $blue;
+    }
+    .storage__city_filter {
+        border: 2px solid #DFE2E6;
+        color: $dark_blue;
+        font-weight: 300;
+        font-size: 17px;
+        padding-right: 30%;
+    }
+    .mini_input {
+        width: 80px;
     }
 }
 .main_filter__bottom {
