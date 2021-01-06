@@ -36,7 +36,11 @@
   border-top: 2px #DFE2E5 solid;
   padding-top: 20px;
   margin-top: 40px;
-
+  &.border_none {
+    border-top: none;
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
 }
 
 .goods__info__gray {
@@ -49,7 +53,11 @@
   @include padding-margin-title;
   border-top: 2px #DFE2E5 solid;
   padding-top: 20px;
-  margin-top: 40px
+  margin-top: 40px;
+  &.block_paddings {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
 }
 
 .goods__info__add-text {

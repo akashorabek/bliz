@@ -36,6 +36,11 @@ $(document).ready(function() {
       $(this).hide();
     });
 
+    $('.filter__item__form a').click(function(){
+      $(this).addClass('active');
+      $('.filter__item__form a').not(this).removeClass('active');
+    });
+
   });
   
   
