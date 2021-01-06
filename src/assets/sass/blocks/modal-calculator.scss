@@ -1,24 +1,29 @@
 .modal__calculator {
   display: none;
   justify-content: center;
-  align-items: center;
-  background-color:rgba(242, 242, 242, .4);
+  align-items: flex-start;
+  background-color:rgba(242, 242, 242, .7);
   position: absolute;
   top:0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 100;
+  &.active {
+    display: flex;
+  }
 }
 
 .calculator__table {
-  width: 38vw;
+  width: 45vw;
+ 
 }
 
 .calculator__content {
   position:relative;
   background-color: #fff;
   padding: 15px;
+  margin-top: 50px;
 }
 
 .calculator__content__title {

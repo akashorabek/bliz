@@ -47,6 +47,16 @@ $(document).ready(function() {
       $('.filter__item__form a').not(this).removeClass('active');
     });
 
+    $('.open_calc_modal').click(function(){
+      $('.modal__calculator').addClass('active');
+      $('body').addClass('modal-window-calc');
+    });
+
+    $('.close__calc__modal').click(function(){
+      $('.modal__calculator').removeClass('active');
+      $('body').removeClass('modal-window-calc');
+    });
+
   });
   
   
