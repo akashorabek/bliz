@@ -1,0 +1,129 @@
+<div class="modal__calculator">
+  <div class="calculator__content">
+    <button class="close__calc__modal"><i class="fas fa-times"></i></button>
+    <h2 class="calculator__content__title">Укажите параметры хранения <br> и мы рассчитаем оптимальную площадь</h2>
+    <div class="calculator__table">
+      <div class="calculator__table__row">
+        <div class="calculator__table__column1">
+          <p >тип расчета</p>
+        </div>
+        <div class="calculator__table__column2">
+          <div class="filter__item__form filter__item__form--calc">
+            <a href="#" class="active">По кол-ву паллето мест</a>
+            <a href="#">По площади склада</a>
+          </div>
+          <div class="calc__column__item">
+            <p>Калькулятор рассчитает площадь необходимую для <br> хранения выбранного количества паллето мест</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="calculator__table__row">
+        <div class="calculator__table__column1">
+          <p>Кол-во паллето мест</p>
+        </div>
+        <div class="calculator__table__column2">
+          <div class="filter__item__form filter__item__form--calc">
+            <input type="number" value="100" width="10">
+          </div>
+        </div>
+      </div>
+
+      <div class="calculator__table__row">
+        <div class="calculator__table__column1">
+          <p>Класс склада</p>
+        </div>
+        <div class="calculator__table__column2">
+          <div class="filter__item__form filter__item__form--calc">
+              <a href="#" class="calc__column__item2 active" >А</a>
+              <a href="#"  class="calc__column__item2">B</a>
+              <a href="#" class="calc__column__item2">C</a>
+          </div>
+        </div>
+      </div>
+
+   
+
+      <div class="calculator__table__row">
+        <div class="calculator__table__column1">
+          <p>Высота склада</p>
+        </div>
+        <div class="calculator__table__column2">
+          <div class="filter__item__form filter__item__form--calc">
+            <input type="number" value="100" width="10">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="calculator__table__row">
+        <div class="calculator__table__column1">
+          <p>Кол-во паллето мест</p>
+        </div>
+        <div class="calculator__table__column2">
+          <div class="filter__item__form filter__item__form--calc">
+            <select>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select>
+          </div>
+        </div>
+      </div>
+     
+
+      <div class="calculator__table__row">
+        <div class="calculator__table__column1">
+          <p>Зона экспедиции</p>
+        </div>
+        <div class="calculator__table__column2">
+          <div class="filter__item__form filter__item__form--calc">
+            <input type="range" value="18" min="1" max="100" oninput="this.nextElementSibling.value = this.value">
+            <input type="text" value="18%" readonly>
+          </div>
+        </div>
+      </div>
+
+      <div class="calculator__table__row">
+        <div class="calculator__table__column1">
+          <p>Тип паллеты</p>
+        </div>
+        <div class="calculator__table__column2">
+          <div class="filter__item__form filter__item__form--calc">
+              <a href="#" class="calc__column__item2 active" >EUR 1200X800</a>
+              <a href="#"  class="calc__column__item2">FIN 1200X1000</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="calculator__table__row">
+        <div class="calculator__table__column1">
+          <p>Проезд для техники</p>
+        </div>
+        <div class="calculator__table__column2">
+          <div class="filter__item__form filter__item__form--calc">
+              <a href="#" class="calc__column__item2 active" >2.5 - 2.9 м.</a>
+              <a href="#"  class="calc__column__item2">3 - 3.2 м.</a>
+              <a href="#"  class="calc__column__item2">более 3.3 м.</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="calculator__table__row">
+        <div class="calculator__table__column1">
+          <p class="calc__column__item2">46 - 49 м2</p>
+          <div class="calc__column__item">
+            <p>Рекомендуемая <br> площадь склада</p>
+          </div>  
+        </div>
+        <div class="calculator__table__column2">
+            <div class="calc__column__item">
+              <p> * Результаты расчета данного калькулятора являются <br> приблизительными, так как расчет производится исходя только <br> из основных вводных данных. В расчете не учитываются <br> конструктивные особенности склада.</p>
+            </div>
+        </div>
+      </div>
+
+
+    </div>
+    
+  </div>
+</div>
