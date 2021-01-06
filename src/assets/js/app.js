@@ -28,7 +28,13 @@ $(document).ready(function() {
     });
 
     $('.goods__nav__opener').click(function(){
-      $('.goods__nav').toggleClass('active');
+      $('.goods__nav.goods').toggleClass('active');
+      $('.goods__nav.equipment').removeClass('active');
+    });
+
+    $('.equipment__opener').click(function(){
+      $('.goods__nav.equipment').toggleClass('active');
+      $('.goods__nav.goods').removeClass('active');
     });
 
     $('.show_num').click(function(){

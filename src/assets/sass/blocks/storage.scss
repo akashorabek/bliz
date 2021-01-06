@@ -6,21 +6,24 @@
     border-bottom: 1px solid #DFE2E6;
 }
 .storage__item__img {
-    width: 35%;
+    flex: 3;
     margin-right: 20px;
     img {
         width: 100%;
     }
 }
 .storage__item__desc {
-    width: 60%;
+   flex: 5;
 }
 .storage__item__title {
     a {
         color: $blue;
         font-weight: 500;
         font-size: 19px;
-        
+        transition: .2s;
+        &:hover {
+            color: #005eac;
+        }
     }
     h3 {
         margin-top: 5px;
@@ -36,6 +39,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    &.right_self {
+        justify-content: flex-end;
+    }
 }
 .storage__item__adress__item {
     h4 {

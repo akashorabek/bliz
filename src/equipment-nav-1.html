@@ -10,8 +10,8 @@ layout:default
                 </div>
                 <div class="nav__links">
                     <a class="goods__nav__opener" href="#">Грузоперевозки</a>
-                    <a class="active" href="storage.html">Склады</a>
-                    <a class="equipment__opener" href="#">Спецтехника</a>
+                    <a href="storage.html">Склады</a>
+                    <a class="equipment__opener active" href="#">Спецтехника</a>
                     <a href="#">Онлайн-курсы</a>
                 </div>
             </div>
@@ -30,10 +30,10 @@ layout:default
             <a href="goods-nav-5.html">Проверка компаний</a>
         </div>
     </div>
-    <div class="goods__nav equipment">
+    <div class="goods__nav equipment active">
         <div class="goods__nav__links container">
             <a href="equipment-nav-1.html">Все</a>
-            <a href="equipment-nav-1.html">Землеройная</a>
+            <a class="active" href="equipment-nav-1.html">Землеройная</a>
             <a href="equipment-nav-1.html">Строительная</a>
             <a href="equipment-nav-1.html">Бетонные работы</a>
             <a href="equipment-nav-1.html">Грузоперевозки</a>
@@ -59,33 +59,22 @@ layout:default
             </div>
             <div class="main_filter__top__item">
                 <div class="filter__item__title">
-                    <h4>Площадь, м2</h4>
-                    <div class="filter__item__form">
-                        <input class="mini_input" type="text" placeholder="100">
-                        <div class="hr"></div>
-                        <input class="mini_input" type="text" placeholder="1 200">
-                    </div>
+                    <h4>Техника</h4>
+                    <form class="filter__item__form">
+                        <select class="storage__city_filter">
+                            <option>Эсковаторы-погрузчики</option>
+                        </select>
+                    </form>
                 </div>
             </div>
             <div class="main_filter__top__item">
                 <div class="filter__item__title">
-                    <h4>Цена, ₸ за м2</h4>
+                    <h4>Цена, ₸ за час</h4>
                     <div class="filter__item__form">
                         <input class="mini_input" type="text" placeholder="от">
                         <div class="hr"></div>
                         <input class="mini_input" type="text" placeholder="до">
                     </div>
-                </div>
-            </div>
-            <div class="main_filter__top__item">
-                <div class="filter__item__title">
-                    <h4>Класс</h4>
-                    <form class="filter__item__form">
-                        <select class="storage__city_filter">
-                            <option>Все</option>
-                        </select>
-                        
-                    </form>
                 </div>
             </div>
             <div class="main_filter__top__item">
@@ -113,8 +102,8 @@ layout:default
 <div class="products__container container">
     <div class="products__content">
         <div class="products__title">
-            <h4>Главная / Склады / Склады в Алматы</h4>
-            <h1>Склады и складские помещения в Алматы</h1>
+            <h4>Главная / Спецтехника / Землеройная техника / Эсковаторы-погрузчики</h4>
+            <h1>Эсковаторы-погрузчики в Алматы</h1>
             <h3>Найдено 845 объявлений</h3>
         </div>
         <div class="products__items__wrapper">
@@ -124,52 +113,48 @@ layout:default
                 </div>
                 <div class="storage__item">
                     <div class="storage__item__img">
-                        <img src="assets/img/storage/storage1.png" alt="">
+                        <img src="assets/img/equipment/eskovator1.png" alt="">
                     </div>
                     <div class="storage__item__desc">
                         <div class="storage__item__title">
-                            <a href="#">Склад 800 м2, «ОУСА Альянс», Алматы</a>
-                            <h3>200 000 ₸/мес</h3>
+                            <a href="#">Экскаватор-погрузчик JCB</a>
+                            <h3>8 000 ₸/час</h3>
                         </div>
                         <div class="storage__item__details">
                             <div class="table__row">
                                 <div class="table__column__1">
-                                  <p class="goods__info__gray small">площадь</p>
+                                  <p class="goods__info__gray small">масса</p>
                                   <div class="table__dash__bord">
                                   </div>
                                 </div>
                                 <div class="table__column__2 small">
-                                  <p>640 м2</p>
+                                  <p>5 тн</p>
                                 </div>
                             </div>
                             <div class="table__row">
                                 <div class="table__column__1">
-                                  <p class="goods__info__gray small">общ. площадь</p>
+                                  <p class="goods__info__gray small">мобильнсоть</p>
                                   <div class="table__dash__bord">
                                   </div>
                                 </div>
                                 <div class="table__column__2 small">
-                                  <p>45 000 м2</p>
+                                  <p>колесный</p>
                                 </div>
                             </div>
                             <div class="table__row">
                                 <div class="table__column__1">
-                                  <p class="goods__info__gray small">класс и тип</p>
+                                  <p class="goods__info__gray small">емкость ковша</p>
                                   <div class="table__dash__bord">
                                   </div>
                                 </div>
                                 <div class="table__column__2 small">
-                                  <p>B+ / сухой (+14/+24)</p>
+                                  <p>60 тн/м3</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="storage__item__adress">
+                        <div class="storage__item__adress right_self">
                             <div class="storage__item__adress__item">
-                                <h4>Алматы, Бостан. р-н, Розыбакиева 17А</h4>
-                                <a class="opacity_btn" href="#">показать на карте</a>
-                            </div>
-                            <div class="storage__item__adress__item">
-                                <p>ТОО «ОУСА Альянс»</p>
+                                <p>АО «Тулпар Строй»</p>
                                 <span>7 мая 12:30</span>
                             </div>
                         </div>
@@ -177,52 +162,48 @@ layout:default
                 </div>
                 <div class="storage__item">
                     <div class="storage__item__img">
-                        <img src="assets/img/storage/storage2.png" alt="">
+                        <img src="assets/img/equipment/eskovator2.png" alt="">
                     </div>
                     <div class="storage__item__desc">
                         <div class="storage__item__title">
-                            <a href="#">Склад 640 м2, «Алпамыс», Алматы</a>
-                            <h3>90 000 ₸/мес</h3>
+                            <a href="#">Экскаватор-погрузчик SOLG</a>
+                            <h3>8 000 ₸/час</h3>
                         </div>
                         <div class="storage__item__details">
                             <div class="table__row">
                                 <div class="table__column__1">
-                                  <p class="goods__info__gray small">площадь</p>
+                                  <p class="goods__info__gray small">масса</p>
                                   <div class="table__dash__bord">
                                   </div>
                                 </div>
                                 <div class="table__column__2 small">
-                                  <p>640 м2</p>
+                                  <p>5 тн</p>
                                 </div>
                             </div>
                             <div class="table__row">
                                 <div class="table__column__1">
-                                  <p class="goods__info__gray small">общ. площадь</p>
+                                  <p class="goods__info__gray small">мобильнсоть</p>
                                   <div class="table__dash__bord">
                                   </div>
                                 </div>
                                 <div class="table__column__2 small">
-                                  <p>45 000 м2</p>
+                                  <p>колесный</p>
                                 </div>
                             </div>
                             <div class="table__row">
                                 <div class="table__column__1">
-                                  <p class="goods__info__gray small">класс и тип</p>
+                                  <p class="goods__info__gray small">емкость ковша</p>
                                   <div class="table__dash__bord">
                                   </div>
                                 </div>
                                 <div class="table__column__2 small">
-                                  <p>B+ / сухой (+14/+24)</p>
+                                  <p>60 тн/м3</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="storage__item__adress">
+                        <div class="storage__item__adress right_self">
                             <div class="storage__item__adress__item">
-                                <h4>Алматы, Бостан. р-н, Розыбакиева 17А</h4>
-                                <a class="opacity_btn" href="#">показать на карте</a>
-                            </div>
-                            <div class="storage__item__adress__item">
-                                <p>АО «Алпамыс»</p>
+                                <p>АО «Тулпар Строй»</p>
                                 <span>7 мая 12:30</span>
                             </div>
                         </div>
@@ -230,52 +211,48 @@ layout:default
                 </div>
                 <div class="storage__item">
                     <div class="storage__item__img">
-                        <img src="assets/img/storage/storage3.png" alt="">
+                        <img src="assets/img/equipment/eskovator3.png" alt="">
                     </div>
                     <div class="storage__item__desc">
                         <div class="storage__item__title">
-                            <a href="#">Склад 800 м2, «ОУСА Альянс», Алматы</a>
-                            <h3>90 000 ₸/мес</h3>
+                            <a href="#">Экскаватор-погрузчик SOLG</a>
+                            <h3>8 000 ₸/час</h3>
                         </div>
                         <div class="storage__item__details">
                             <div class="table__row">
                                 <div class="table__column__1">
-                                  <p class="goods__info__gray small">площадь</p>
+                                  <p class="goods__info__gray small">масса</p>
                                   <div class="table__dash__bord">
                                   </div>
                                 </div>
                                 <div class="table__column__2 small">
-                                  <p>640 м2</p>
+                                  <p>5 тн</p>
                                 </div>
                             </div>
                             <div class="table__row">
                                 <div class="table__column__1">
-                                  <p class="goods__info__gray small">общ. площадь</p>
+                                  <p class="goods__info__gray small">мобильнсоть</p>
                                   <div class="table__dash__bord">
                                   </div>
                                 </div>
                                 <div class="table__column__2 small">
-                                  <p>45 000 м2</p>
+                                  <p>колесный</p>
                                 </div>
                             </div>
                             <div class="table__row">
                                 <div class="table__column__1">
-                                  <p class="goods__info__gray small">класс и тип</p>
+                                  <p class="goods__info__gray small">емкость ковша</p>
                                   <div class="table__dash__bord">
                                   </div>
                                 </div>
                                 <div class="table__column__2 small">
-                                  <p>B+ / сухой (+14/+24)</p>
+                                  <p>60 тн/м3</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="storage__item__adress">
+                        <div class="storage__item__adress right_self">
                             <div class="storage__item__adress__item">
-                                <h4>Алматы, Бостан. р-н, Розыбакиева 17А</h4>
-                                <a class="opacity_btn" href="#">показать на карте</a>
-                            </div>
-                            <div class="storage__item__adress__item">
-                                <p>ТОО «ОУСА Альянс»</p>
+                                <p>АО «Тулпар Строй»</p>
                                 <span>7 мая 12:30</span>
                             </div>
                         </div>
@@ -284,52 +261,48 @@ layout:default
             </div>
             <div class="storage__item">
                 <div class="storage__item__img">
-                    <img src="assets/img/storage/storage4.png" alt="">
+                    <img src="assets/img/equipment/eskovator1.png" alt="">
                 </div>
                 <div class="storage__item__desc">
                     <div class="storage__item__title">
-                        <a href="#">Склад 640 м2, «Алпамыс», Алматы</a>
-                        <h3>90 000 ₸/мес</h3>
+                        <a href="#">Экскаватор-погрузчик JCB</a>
+                        <h3>8 000 ₸/час</h3>
                     </div>
                     <div class="storage__item__details">
                         <div class="table__row">
                             <div class="table__column__1">
-                              <p class="goods__info__gray small">площадь</p>
+                              <p class="goods__info__gray small">масса</p>
                               <div class="table__dash__bord">
                               </div>
                             </div>
                             <div class="table__column__2 small">
-                              <p>640 м2</p>
+                              <p>5 тн</p>
                             </div>
                         </div>
                         <div class="table__row">
                             <div class="table__column__1">
-                              <p class="goods__info__gray small">общ. площадь</p>
+                              <p class="goods__info__gray small">мобильнсоть</p>
                               <div class="table__dash__bord">
                               </div>
                             </div>
                             <div class="table__column__2 small">
-                              <p>45 000 м2</p>
+                              <p>колесный</p>
                             </div>
                         </div>
                         <div class="table__row">
                             <div class="table__column__1">
-                              <p class="goods__info__gray small">класс и тип</p>
+                              <p class="goods__info__gray small">емкость ковша</p>
                               <div class="table__dash__bord">
                               </div>
                             </div>
                             <div class="table__column__2 small">
-                              <p>B+ / сухой (+14/+24)</p>
+                              <p>60 тн/м3</p>
                             </div>
                         </div>
                     </div>
-                    <div class="storage__item__adress">
+                    <div class="storage__item__adress right_self">
                         <div class="storage__item__adress__item">
-                            <h4>Алматы, Бостан. р-н, Розыбакиева 17А</h4>
-                            <a class="opacity_btn" href="#">показать на карте</a>
-                        </div>
-                        <div class="storage__item__adress__item">
-                            <p>АО «Алпамыс»</p>
+                            <p>АО «Тулпар Строй»</p>
                             <span>7 мая 12:30</span>
                         </div>
                     </div>
@@ -340,52 +313,48 @@ layout:default
             </div>
             <div class="storage__item">
                 <div class="storage__item__img">
-                    <img src="assets/img/storage/storage5.png" alt="">
+                    <img src="assets/img/equipment/eskovator1.png" alt="">
                 </div>
                 <div class="storage__item__desc">
                     <div class="storage__item__title">
-                        <a href="#">Склад 640 м2, «Алпамыс», Алматы</a>
-                        <h3>90 000 ₸/мес</h3>
+                        <a href="#">Экскаватор-погрузчик JCB</a>
+                        <h3>8 000 ₸/час</h3>
                     </div>
                     <div class="storage__item__details">
                         <div class="table__row">
                             <div class="table__column__1">
-                              <p class="goods__info__gray small">площадь</p>
+                              <p class="goods__info__gray small">масса</p>
                               <div class="table__dash__bord">
                               </div>
                             </div>
                             <div class="table__column__2 small">
-                              <p>640 м2</p>
+                              <p>5 тн</p>
                             </div>
                         </div>
                         <div class="table__row">
                             <div class="table__column__1">
-                              <p class="goods__info__gray small">общ. площадь</p>
+                              <p class="goods__info__gray small">мобильнсоть</p>
                               <div class="table__dash__bord">
                               </div>
                             </div>
                             <div class="table__column__2 small">
-                              <p>45 000 м2</p>
+                              <p>колесный</p>
                             </div>
                         </div>
                         <div class="table__row">
                             <div class="table__column__1">
-                              <p class="goods__info__gray small">класс и тип</p>
+                              <p class="goods__info__gray small">емкость ковша</p>
                               <div class="table__dash__bord">
                               </div>
                             </div>
                             <div class="table__column__2 small">
-                              <p>B+ / сухой (+14/+24)</p>
+                              <p>60 тн/м3</p>
                             </div>
                         </div>
                     </div>
-                    <div class="storage__item__adress">
+                    <div class="storage__item__adress right_self">
                         <div class="storage__item__adress__item">
-                            <h4>Алматы, Бостан. р-н, Розыбакиева 17А</h4>
-                            <a class="opacity_btn" href="#">показать на карте</a>
-                        </div>
-                        <div class="storage__item__adress__item">
-                            <p>АО «Алпамыс»</p>
+                            <p>АО «Тулпар Строй»</p>
                             <span>7 мая 12:30</span>
                         </div>
                     </div>
@@ -393,158 +362,48 @@ layout:default
             </div>
             <div class="storage__item">
                 <div class="storage__item__img">
-                    <img src="assets/img/storage/storage6.png" alt="">
+                    <img src="assets/img/equipment/eskovator1.png" alt="">
                 </div>
                 <div class="storage__item__desc">
                     <div class="storage__item__title">
-                        <a href="#">Склад 640 м2, «Алпамыс», Алматы</a>
-                        <h3>90 000 ₸/мес</h3>
+                        <a href="#">Экскаватор-погрузчик JCB</a>
+                        <h3>8 000 ₸/час</h3>
                     </div>
                     <div class="storage__item__details">
                         <div class="table__row">
                             <div class="table__column__1">
-                              <p class="goods__info__gray small">площадь</p>
+                              <p class="goods__info__gray small">масса</p>
                               <div class="table__dash__bord">
                               </div>
                             </div>
                             <div class="table__column__2 small">
-                              <p>640 м2</p>
+                              <p>5 тн</p>
                             </div>
                         </div>
                         <div class="table__row">
                             <div class="table__column__1">
-                              <p class="goods__info__gray small">общ. площадь</p>
+                              <p class="goods__info__gray small">мобильнсоть</p>
                               <div class="table__dash__bord">
                               </div>
                             </div>
                             <div class="table__column__2 small">
-                              <p>45 000 м2</p>
+                              <p>колесный</p>
                             </div>
                         </div>
                         <div class="table__row">
                             <div class="table__column__1">
-                              <p class="goods__info__gray small">класс и тип</p>
+                              <p class="goods__info__gray small">емкость ковша</p>
                               <div class="table__dash__bord">
                               </div>
                             </div>
                             <div class="table__column__2 small">
-                              <p>B+ / сухой (+14/+24)</p>
+                              <p>60 тн/м3</p>
                             </div>
                         </div>
                     </div>
-                    <div class="storage__item__adress">
+                    <div class="storage__item__adress right_self">
                         <div class="storage__item__adress__item">
-                            <h4>Алматы, Бостан. р-н, Розыбакиева 17А</h4>
-                            <a class="opacity_btn" href="#">показать на карте</a>
-                        </div>
-                        <div class="storage__item__adress__item">
-                            <p>АО «Алпамыс»</p>
-                            <span>7 мая 12:30</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="storage__item">
-                <div class="storage__item__img">
-                    <img src="assets/img/storage/storage5.png" alt="">
-                </div>
-                <div class="storage__item__desc">
-                    <div class="storage__item__title">
-                        <a href="#">Склад 640 м2, «Алпамыс», Алматы</a>
-                        <h3>90 000 ₸/мес</h3>
-                    </div>
-                    <div class="storage__item__details">
-                        <div class="table__row">
-                            <div class="table__column__1">
-                              <p class="goods__info__gray small">площадь</p>
-                              <div class="table__dash__bord">
-                              </div>
-                            </div>
-                            <div class="table__column__2 small">
-                              <p>640 м2</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__column__1">
-                              <p class="goods__info__gray small">общ. площадь</p>
-                              <div class="table__dash__bord">
-                              </div>
-                            </div>
-                            <div class="table__column__2 small">
-                              <p>45 000 м2</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__column__1">
-                              <p class="goods__info__gray small">класс и тип</p>
-                              <div class="table__dash__bord">
-                              </div>
-                            </div>
-                            <div class="table__column__2 small">
-                              <p>B+ / сухой (+14/+24)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="storage__item__adress">
-                        <div class="storage__item__adress__item">
-                            <h4>Алматы, Бостан. р-н, Розыбакиева 17А</h4>
-                            <a class="opacity_btn" href="#">показать на карте</a>
-                        </div>
-                        <div class="storage__item__adress__item">
-                            <p>АО «Алпамыс»</p>
-                            <span>7 мая 12:30</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="storage__item">
-                <div class="storage__item__img">
-                    <img src="assets/img/storage/storage6.png" alt="">
-                </div>
-                <div class="storage__item__desc">
-                    <div class="storage__item__title">
-                        <a href="#">Склад 640 м2, «Алпамыс», Алматы</a>
-                        <h3>90 000 ₸/мес</h3>
-                    </div>
-                    <div class="storage__item__details">
-                        <div class="table__row">
-                            <div class="table__column__1">
-                              <p class="goods__info__gray small">площадь</p>
-                              <div class="table__dash__bord">
-                              </div>
-                            </div>
-                            <div class="table__column__2 small">
-                              <p>640 м2</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__column__1">
-                              <p class="goods__info__gray small">общ. площадь</p>
-                              <div class="table__dash__bord">
-                              </div>
-                            </div>
-                            <div class="table__column__2 small">
-                              <p>45 000 м2</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__column__1">
-                              <p class="goods__info__gray small">класс и тип</p>
-                              <div class="table__dash__bord">
-                              </div>
-                            </div>
-                            <div class="table__column__2 small">
-                              <p>B+ / сухой (+14/+24)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="storage__item__adress">
-                        <div class="storage__item__adress__item">
-                            <h4>Алматы, Бостан. р-н, Розыбакиева 17А</h4>
-                            <a class="opacity_btn" href="#">показать на карте</a>
-                        </div>
-                        <div class="storage__item__adress__item">
-                            <p>АО «Алпамыс»</p>
+                            <p>АО «Тулпар Строй»</p>
                             <span>7 мая 12:30</span>
                         </div>
                     </div>
@@ -575,16 +434,6 @@ layout:default
         <div class="aside__add__ad">
             <a class="btn" href="#">Подать объявление</a>
             <p>Размещение за 5 минут: <br> легко,быстро и выгодно!</p>
-        </div>
-        <div class="aside__call">
-            <div class="aside__call__content">
-                <div class="aside__call__text">
-                    <h4>Калькулятор склада</h4>
-                    <p>Просчитайте, какого <br> размера склад вам нужен.</p>
-                </div>
-                <img src="assets/img/widgets/aside_calc.png" alt="">
-            </div>
-            <a class="btn btn--white" href="#">Калькулятор склада</a>
         </div>
         <div class="exchange_rate">
             <h4>Курсы валют</h4>
