@@ -14,6 +14,10 @@
 }
 
 .products__title {
+    &.paddings {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
     h4 {
         color: #A2A9B2;
         font-size: 15px;
@@ -24,6 +28,9 @@
         font-size: 36px;
         font-weight: 500;
         margin: 10px 0;
+        &.smaller_font {
+            font-size: 32px;
+        }
     }
     h3 {
         color: #A2A9B2;
@@ -121,6 +128,55 @@
         margin: 0;
         padding: 25px 20px;
     }
+    &.cabinet_ad_item {
+        border-left: 3px solid #00B261;
+    }
+}
+.cabinet_ad_auction_items {
+    display: flex;
+    align-items: center;
+    a {
+        display: flex;
+        align-items: center;
+        color: $dark_blue;
+        font-size: 15px;
+        font-weight: 500;
+        margin: 0 10px;
+        padding: 4px 15px;
+        border-radius: 5px;
+        background-color: white;
+        border: 1px solid #E2E2E3;
+        transition: .2s;
+        &:hover {
+            color: $blue;
+            border-color: $blue;
+            i{
+                color: $blue;
+            }
+        }
+        &.pink {
+            border-color: #9732F0;
+            color: #9732F0;
+            i {
+                color: #9732F0;
+            }
+            &:hover {
+                color: $blue;
+                border-color: $blue;
+                i{
+                    color: $blue;
+                }
+            }
+        }
+        i {
+            margin-bottom: 5px;
+            color: #3E455B;
+            font-size: 16px;
+            margin-right: 5px;
+            transition: .2s;
+        }
+    }
+    
 }
 .auction__item {
     display: flex;
@@ -162,6 +218,10 @@
     }
     .btn {
         padding: 12px 40px;
+    }
+    &.cabinet_ad_item {
+        justify-content: flex-end;
+        padding-right: 10px;
     }
 }
 .auction__item__date {

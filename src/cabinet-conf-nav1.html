@@ -1,0 +1,157 @@
+---
+layout: cabinet
+---
+<title>cabinet</title>
+
+<header>
+    <nav class="cabinet_nav">
+        <div class="nav__wrapper container">
+            <div class="nav__items">
+                <div class="nav__logo">
+                    <a href="index.html">BLIZ.KZ</a>
+                </div>
+                <div class="nav__links">
+                    <a class="cabinet_config_opener active" href="#">Настройки</a>
+                    <a href="#">Заявки</a>
+                    <a href="cabinet-ad.html">Объявления</a>
+                    <a href="#">Сотрудники</a>
+                    <a href="#">Баланс</a>
+                    <a href="#">Сообщения</a>
+                    <a href="#">Избранное</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="goods__nav config active">
+        <div class="goods__nav__links container">
+            <a class="active" href="#">Личная информация</a>
+            <a href="#">Документы</a>
+            <a href="#">Профиль компании</a>
+            <a href="#">Изменить пароль</a>
+            <a href="#">Уведомления</a>
+            <a href="#">Удалить аккаунт</a>
+        </div>
+    </div>
+</header>
+
+<div class="grid-container container">
+    <div class="section">
+        <div class="products__title paddings">
+            <h4>Личный кабинет / Настройки / Личная информация</h4>
+            <h1 class="smaller_font">Личная информация</h1>
+        </div>
+        <div class="user__profile">
+            <div class="user__profile__title">
+                <h3>Фото контактного лица</h3>
+                <p>Настоящее фото вызывает больше доверия к вашей компании</p>
+            </div>
+            <div class="user__profile__picture">
+                <div class="user__profile__img">
+                    <img src="assets/img/widgets/user_img.png" alt="">
+                </div>
+                <a class="btn btn--white" href="#">Изменить</a>
+                <a class="btn btn--white" href="#"><i class="far fa-trash-alt"></i></a>
+            </div>
+        </div>
+        <div class="user__personal_data">
+            <div class="user__profile__title">
+                <h3>Персональные данные</h3>
+                <p>Личные данные администратора компании</p>
+            </div>
+            <form class="user__data_form">
+                <div class="user__data_form__item">
+                    <span>Фамилия</span>
+                    <input type="text" placeholder="Баталагазиев">
+                </div>
+                <div class="user__data_form__item">
+                    <span>Имя</span>
+                    <input type="text" placeholder="Руслан">
+                </div>
+                <div class="user__data_form__item">
+                    <span>Отчество</span>
+                    <input type="text" placeholder="Владимирович">
+                </div>
+                <div class="user__data_form__item">
+                    <span>Дата рождения</span>
+                    <input type="text" placeholder="11/09/1992">
+                </div>
+                <div class="user__data_form__item">
+                    <span>Страна</span>
+                    <select>
+                        <option>Казахстан</option>
+                    </select>
+                </div>
+                <div class="user__data_form__item">
+                    <span>Город</span>
+                    <select>
+                        <option>Алматы</option>
+                        <option>Астана</option>
+                    </select>
+                </div>
+                <div class="user__data_form__item">
+                    <span>Адрес</span>
+                    <input type="text" placeholder="ул. Пушкина дом №11">
+                </div>
+            </form>
+        </div>
+        <div class="user__personal_data">
+            <div class="user__profile__title">
+                <h3>Контактные данные</h3>
+                <p>Контактные данные администратора страницы</p>
+            </div>
+            <form class="user_contact_form">
+                <div class="user__data_form__item">
+                    <span>Эл. почта</span>
+                    <input type="text" placeholder="admin@company.kz">
+                </div>
+                <div class="user__data_form__item">
+                    <span>Телефон</span>
+                    <div class="user__data_form__item__inner">
+                        <input type="text" placeholder="+7 701 399 35 38">
+                        <a class="btn btn--white small" href="#"><i class="far fa-edit"></i></a>
+                    </div>
+                </div>
+                <div class="user__data_form__item center">
+                    <a class="btn btn--white" href="#">ДОБАВИТЬ ТЕЛЕФОН</a>
+                </div>
+            </form>
+        </div>
+        <div class="user__data__btns">
+            <a class="btn" href="#">Сохранить ИЗМЕНЕНИЯ</a>
+            <a class="btn btn--white" href="#">ОТМЕНИТЬ</a>
+        </div>
+    </div>
+    <div class="aside">
+        <div class="aside__contactCard">
+            <div class="contactCard__content">
+                <img src="assets/img/widgets/company_icon.png" alt="">
+                <div class="contactCard__title">
+                  <h3>ТОО «Alma Logistics»</h3>
+                  <p>Баталгазиев Р.В.   </p>
+                </div>
+            </div>
+            <div class="contactCard__details">
+                <div class="contactCard__detail__item">
+                    <p>Статус:</p>
+                    <h3>Лимитед</h3>
+                </div>
+                <div class="contactCard__detail__item">
+                    <p>Рейтинг:</p>
+                    <div class="contactCard__detail__item__inner">
+                        <i class="far fa-star"></i>
+                        <h3>5.0</h3>
+                    </div>
+                </div>
+                <div class="contactCard__detail__item">
+                    <p>Ваш баланс:</p>
+                    <div class="contactCard__detail__item__inner">
+                        <img src="assets/img/widgets/tenge.svg" alt="">
+                        <h3 class="green">15 000 ₸</h3>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn--white green" href="#">Пополнить баланс</a>
+          </div>
+    </div>
+</div>
+

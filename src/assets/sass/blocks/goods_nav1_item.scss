@@ -344,6 +344,37 @@
   }
 }
 
+.contactCard__details {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+.contactCard__detail__item {
+  h3 {
+    color: $blue;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 5px;
+    &.green {
+      color: #25BA76;
+    }
+  }
+  i {
+    color: $blue;
+    font-size: 17px;
+    margin-right: 5px;
+  }
+  img {
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+}
+.contactCard__detail__item__inner {
+  display: flex;
+  align-items: center;
+}
+
 .contactCard__auction__item {
   display: flex;
   align-items: center;

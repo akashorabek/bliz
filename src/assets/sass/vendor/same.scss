@@ -30,6 +30,26 @@
     }
     i {
         margin-right: 10px;
+        &.far.fa-trash-alt {
+            margin-right: 0;
+        }
+        &.far.fa-edit {
+            margin-right: 0;
+            font-size: 16px;
+        }
+    }
+    &.small {
+        padding: 7px 10px;
+        position: absolute;
+        right: -50px;
+    }
+    &.green {
+        border-color: #00B261;
+        color: #00B261;
+        &:hover {
+            background-color: #00B261;
+            color: white;
+        }
     }
 }
 .opacity_btn {
