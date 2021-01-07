@@ -1,0 +1,84 @@
+.user__profile {
+    border-bottom: 2px solid $border_color;
+    padding-bottom: 20px;
+  
+}
+.user__profile__title {
+    margin-bottom: 15px;
+    h3 {
+        font-size: 19px;
+        font-weight: 500;
+        color: $dark_blue;
+        margin-bottom: 5px;
+    }
+    p {
+        font-size: 17px;
+        font-weight: 300;
+        color: $gray_font;
+    }
+}
+.user__profile__picture {
+    display: flex;
+    align-items: center;
+    a {
+        margin: 0 5px;
+    }
+}
+.user__profile__img {
+    width: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    img {
+        width: 100%;
+        object-fit: cover;
+        display: block;
+    }
+}
+.user__personal_data {
+    padding: 30px 0;
+    border-bottom: 2px solid $border_color;
+}
+.user__data_form {
+    width: 50%;    
+}
+.user_contact_form {
+    width: 50%;
+}
+.user__data_form__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    position: relative;
+    &.center {
+        justify-content: flex-end;
+    }
+    p {
+        color: #3E455B;
+        font-size: 17px;
+        font-weight: 300;
+    }
+    input {
+        padding: 5px 7px;
+        outline: none;
+        border: 2px solid $border_color;
+        border-radius: 3px;
+        color: $dark_blue;
+        font-weight: 300;
+        font-size: 17px;
+    }
+    select {
+        padding: 5px 7px;
+        outline: none;
+        border: 2px solid $border_color;
+        border-radius: 3px;
+        color: $dark_blue;
+        font-weight: 300;
+        font-size: 17px;
+        width: 195px;
+    }
+}
+.user__data__btns {
+    margin-top: 40px;
+}

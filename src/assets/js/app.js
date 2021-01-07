@@ -37,14 +37,19 @@ $(document).ready(function() {
       $('.goods__nav.goods').removeClass('active');
     });
 
+    $('.cabinet_config_opener').click(function(){
+      $('.goods__nav.config').toggleClass('active');
+    });
+
     $('.show_num').click(function(){
       $('.hidden_num').show();
       $(this).hide();
     });
 
-    $('.filter__item__form a').click(function(){
+    $('.filter__item__form a').click(function(event){
+      event.preventDefault();
       $(this).addClass('active');
-      $('.filter__item__form a').not(this).removeClass('active');
+      $(this).siblings().removeClass('active');
     });
 
     $('.open_calc_modal').click(function(){
@@ -64,6 +69,15 @@ $(document).ready(function() {
         $("#carusel-item1").attr("src","assets/img/storage/storage2.png");
       }
     })
+
+    $('.pink').click(function(){
+      $('.modal__upgrade_to_top').addClass('active');
+    });
+    $('.modal__upgrade_to_top__inner i').click(function(){
+      $('.modal__upgrade_to_top').removeClass('active');
+    });
+
+
   });
   
   
