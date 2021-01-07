@@ -11,3 +11,9 @@
     margin-top:40px;
     border-top: 2px #DFE2E5 solid;
 }
+
+@mixin table_text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5em;
+}

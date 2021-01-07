@@ -56,7 +56,14 @@ $(document).ready(function() {
       $('.modal__calculator').removeClass('active');
       $('body').removeClass('modal-window-calc');
     });
-
+    // 
+    $('#carusel-item2 img').click(function(e) {
+      if (e.target.alt === 'small-storage-item-1') {
+        $("#carusel-item1").attr("src","assets/img/storage/storage-nav-item/store-item1.png");
+      } else {
+        $("#carusel-item1").attr("src","assets/img/storage/storage2.png");
+      }
+    })
   });
   
   
