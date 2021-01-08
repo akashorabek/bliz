@@ -17,7 +17,11 @@
     &.paddings {
         padding-top: 30px;
         padding-bottom: 40px;
+        &.little_pad {
+            padding-bottom: 20px;
+        }
     }
+
     h4 {
         color: #A2A9B2;
         font-size: 15px;

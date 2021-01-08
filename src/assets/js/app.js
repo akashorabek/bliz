@@ -72,6 +72,7 @@ $(document).ready(function() {
 
     $('.pink').click(function(){
       $('.modal__upgrade_to_top').addClass('active');
+
     });
     $('.modal__upgrade_to_top__inner i').click(function(){
       $('.modal__upgrade_to_top').removeClass('active');

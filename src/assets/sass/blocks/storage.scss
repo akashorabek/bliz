@@ -4,6 +4,17 @@
     justify-content: space-between;
     padding: 20px;
     border-bottom: 1px solid #DFE2E6;
+    &.without_pads {
+        padding: 20px 0;
+        position: relative;
+    }
+    #storges_absolute {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 24px;
+        color: $blue;
+    }
 }
 .storage__item__img {
     flex: 3;

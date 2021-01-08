@@ -19,6 +19,14 @@
         color: $blue;
         background-color: transparent;
     }
+    &.green {
+        background-color: #00B261;
+        border-color: #00B261;
+        &:hover {
+            background-color: transparent;
+            color: #00B261;
+        }
+    }
 }
 
 .btn.btn--white {
