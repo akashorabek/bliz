@@ -90,6 +90,10 @@
       font-size: 17px;
       line-height: 1.5em;
       color:$blue;
+      transition: .2s;
+      &:hover {
+        color: #005eac;
+      }
   }
 }
 
